@@ -8,6 +8,7 @@ canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 */
+
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         char arr[]=magazine.toCharArray();
